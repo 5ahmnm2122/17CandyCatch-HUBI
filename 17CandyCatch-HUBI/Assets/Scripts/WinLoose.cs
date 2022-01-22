@@ -10,8 +10,10 @@ public class WinLoose : MonoBehaviour
    public Text Score;
    public DataServer data;
 
+
    void Start()
    {
+       
        PlayerName.text = data.PlayerName;
        Score.text = data.score.ToString();
 
@@ -23,5 +25,7 @@ public class WinLoose : MonoBehaviour
        {
            WinOrLoose.text = "Gewonnen";
        }
+
    }
+
 }

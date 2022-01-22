@@ -5,12 +5,16 @@ using UnityEngine;
 public class PlayerBounds : MonoBehaviour
 {
     private float minX, maxX;
+
+
     void Start()
     {
         Vector3 coor = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
         minX = -coor.x + 0.3f;
         maxX = coor.x - 0.3f;
     }
+
+
     void Update()
     {
         Vector3 temp = transform.position;
@@ -22,4 +26,6 @@ public class PlayerBounds : MonoBehaviour
         
         transform.position = temp;
     }
+
+    
 }

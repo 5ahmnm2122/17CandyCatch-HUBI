@@ -4,21 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
+
 public class PlayerScore : MonoBehaviour
 {
     public DataServer data;
     public Text scoreText;
+
     public int score =0;
     public Text PlayerName;
     public float time = 60f;
+
     public Text TimeText;
     public int badGefangen = 0;
+
 
     void Awake ()
     {
         scoreText.text = "0";
         PlayerName.text = data.PlayerName;
     }
+
+
 
     private void Update()
     {
@@ -41,6 +48,7 @@ public class PlayerScore : MonoBehaviour
             {
                 score -= 1;
             }
+
             badGefangen ++;
             scoreText.text = score.ToString();
             Destroy(target.gameObject);
@@ -50,6 +58,7 @@ public class PlayerScore : MonoBehaviour
                 data.Lost = true;
                 SceneManager.LoadScene("EndScene");
             }
+
         }
         if (target.tag == "Candy")
         {
@@ -57,10 +66,12 @@ public class PlayerScore : MonoBehaviour
             score++;
             scoreText.text = score.ToString();
         }
+
     }
     IEnumerator RestartGame()
     {
         yield return new WaitForSecondsRealtime(2f);
         SceneManager.LoadScene("EndScene");
     }
+    
 }
