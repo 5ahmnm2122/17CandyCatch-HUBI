@@ -12,6 +12,7 @@ Visuals:
 <img width="1440" alt="Bildschirmfoto 2022-01-25 um 08 28 12" src="https://user-images.githubusercontent.com/56028778/150930714-72c0d65a-1647-453a-ba56-73e668a727a9.png">
 
 Third party material:
+https://www.123rf.com/photo_102578010_rainbow-candy-background-greeting-card-candy-and-lollipops-blue-background-mockup-top-view-flat-lay.html
 
 Menu/Result-Background: 
 
