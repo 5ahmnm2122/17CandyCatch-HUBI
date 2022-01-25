@@ -10,3 +10,20 @@ WebGL 960x600
 
 Visuals:
 <img width="1440" alt="Bildschirmfoto 2022-01-25 um 08 28 12" src="https://user-images.githubusercontent.com/56028778/150930714-72c0d65a-1647-453a-ba56-73e668a727a9.png">
+
+Third party material:
+
+Menu/Result-Background: 
+
+Player-Sprite: 
+
+Project state:
+70%
+
+Limitations:
+
+
+Lessons Learned:
+I learned how to move a player.
+
+Copyright by HUBI
