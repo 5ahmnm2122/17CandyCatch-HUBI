@@ -20,7 +20,7 @@ Menu/Result-Background:
 Player-Sprite: 
 
 Project state:
-70%
+90%
 
 Limitations:
 
