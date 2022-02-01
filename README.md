@@ -9,10 +9,11 @@ Target platform:
 WebGL 960x600
 
 Visuals:
-<img width="1440" alt="Bildschirmfoto 2022-01-25 um 08 28 12" src="https://user-images.githubusercontent.com/56028778/150930714-72c0d65a-1647-453a-ba56-73e668a727a9.png">
+<img width="1424" alt="Bildschirmfoto 2022-02-01 um 08 24 01" src="https://user-images.githubusercontent.com/56028778/151928056-5439110d-d9f9-4e99-9cc4-249c9060cd40.png">
+
 
 Third party material:
-https://www.123rf.com/photo_102578010_rainbow-candy-background-greeting-card-candy-and-lollipops-blue-background-mockup-top-view-flat-lay.html
+![Player](https://user-images.githubusercontent.com/56028778/151928132-c06167cd-6f18-4614-b6c6-1ac44b101576.png)
 
 Menu/Result-Background: 
 
